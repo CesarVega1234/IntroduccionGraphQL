@@ -1,0 +1,25 @@
+{
+  "courses":[
+    {
+      "id":1,
+      "title":"Node Course",
+      "author":"Jhon Carter",
+      "topic": "javascript",
+      "url":"www.google.com"
+    },
+    {
+      "id":2,
+      "title":"C++ Course",
+      "author":"Jhon Carter",
+      "topic": "C++",
+      "url":"www.google.com"
+    },
+    {
+      "id":3,
+      "title":"Java Course",
+      "author":"Jhon Carter",
+      "topic": "Java",
+      "url":"www.google.com"
+    }
+  ]
+}

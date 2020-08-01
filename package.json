@@ -1,0 +1,25 @@
+{
+  "name": "IntroduccionGraphQL",
+  "version": "1.0.0",
+  "description": "1.[Aprendiendo GraphQL] Es una breve introduccion a este lenguaje de programacion, para adquirir conocimiento de como funciona, que hace y como se instanciaria un proyecto basico de GraphQL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CesarVega1234/IntroduccionGraphQL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CesarVega1234/IntroduccionGraphQL/issues"
+  },
+  "homepage": "https://github.com/CesarVega1234/IntroduccionGraphQL#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0"
+  }
+}
