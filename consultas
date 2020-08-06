@@ -1,0 +1,51 @@
+//Introduciendo el topic busca en la db
+query getCourses($courseTopic:String!){
+  courses(topic:$courseTopic){
+    title
+    author
+  }
+}
+
+//Introduciendo un ID busca en la db
+query getCourse($courseID: Int!) {
+  course(id: $courseID) {
+    title
+    author
+  }
+}
+
+
+//Fragmentacion
+
+query getCoursesWithFragments($courseID1:Int!,$courseID2:Int!){
+  course1: course(id:$courseID1){
+    ...courseFields
+  }
+  course2:course(id:$courseID2){
+    ...courseFields
+  }
+}
+
+fragment courseFields on Course {
+  title
+  author
+  id
+  topic
+  url
+}
+
+
+//Mutacion que permite cambiar los fields
+mutation updateCourseTopic($id:Int!,$topic:String!){
+  updateCourseTopic(id:$id,topic:$topic){
+    ...courseFields
+  }
+}
+
+fragment courseFields on Course {
+  title
+  author
+  id
+  topic
+  url
+}

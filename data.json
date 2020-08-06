@@ -4,7 +4,7 @@
       "id":1,
       "title":"Node Course",
       "author":"Jhon Carter",
-      "topic": "javascript",
+      "topic": "Java",
       "url":"www.google.com"
     },
     {
@@ -17,7 +17,7 @@
     {
       "id":3,
       "title":"Java Course",
-      "author":"Jhon Carter",
+      "author":"Cesar Vega",
       "topic": "Java",
       "url":"www.google.com"
     }
